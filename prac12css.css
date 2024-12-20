@@ -1,0 +1,88 @@
+#h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 75px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0px;
+    border: solid white 2px;
+    background-color: rgba(255,255,255,0.5);
+}
+body{
+    background-color: rgb(162, 220, 220);
+}
+#i1{
+    width: 100%;
+    height: 700px;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(logo\ wdt\ prac5.png);
+    margin-top: 2px;
+    
+}
+#i2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    margin-top: 2px;
+
+}
+.i3{
+    padding: 8px;
+    align-self: right;
+    border-radius: 15px;
+}
+#i4{
+    font-size: 20px;
+}
+#i6{
+    border: solid wheat 2px;
+    background-color: rgb(226, 226, 226);
+    width: 50%;
+    height: 250px;
+    align-self: center;
+    align-content: center;
+    margin:auto;
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+      -webkit-backdrop-filter: blur(10px);
+}
+#i5{
+    border: solid wheat 2px;
+    background-color:rgb(226, 226, 226);
+    width: 50%;
+    height: 250px;
+    opacity: 1;
+    align-self: center;
+    align-content: center;
+    margin:auto;
+}
+#i7{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(logo\ wdt\ prac5.png);
+    width: 100%;
+    height: 700px;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    margin-top: 2px;
+}
+.container{
+    display: grid;
+    grid-template-columns:300px 300px 300px 300px;
+    grid-gap:50px;
+    justify-content: center;
+    text-align: center;
+    padding: 75px;
+}
+.c3{
+    border: solid rgb(255, 255, 255) 10px;
+    border-radius: 20px;
+    height: 300px;
+    color: rgb(1, 1, 1);
+    background-color: white;
+    opacity: 0.5;
+    font-size: 40px;
+    align-content: center;
+}
